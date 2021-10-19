@@ -23,6 +23,12 @@
             <td>${i.datum }</td>
             <td>${i.cena }</td>
             <td>${i.kategorie }</td>
+            <td>
+                <form action="upravaInzeratu.do" style="display: inline">
+                    <input type="password" name="hesloProUpravu" value="" />
+                    <input type="submit" value="Upravit">
+                </form>
+            </td>
         </tr>
     </c:forEach>
 </table>
